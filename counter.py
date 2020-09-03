@@ -1,15 +1,15 @@
 print ("Please enter the number of coins:")
 
-int quarters = input("#of quarters:")
+quarters = int(input("#of quarters:"))
 quartertot = quarters * .25
-int dimes = input("#of dimes:")
+dimes = int(input("#of dimes:"))
 dimestot = dimes * .10
-int nickels = input("#of nickels:")
+nickels = int(input("#of nickels:"))
 nickeltot = nickels * .05
-int pennies = input("#ofpennies:")
+pennies = int(input("#ofpennies:"))
 pennytot = pennies *.01
 
-tot = quartertot + dimestot + nickeltot + pennytot
+tot = float(quartertot + dimestot + nickeltot + pennytot)
 cents = tot % 1
 dollars = tot // 1
 print ("The total is ",dollars , "dollars and ", cents,"cents")
