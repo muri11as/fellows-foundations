@@ -1,15 +1,11 @@
 print ("Please enter the number of coins:")
-print ("#of quarters:")
 quarters = int(input())
-print ("#of dimes:")
 dimes = int(input())
 dimestot = dimes * .1
 
-print ("#of nickels:")
 nickels = int(input())
 nickeltot = nickels * .05
 
-print ("#of pennies:")
 pennies = int(input())
 pennytot = pennies *.01
 
