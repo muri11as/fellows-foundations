@@ -1,4 +1,3 @@
-print("Enter dollar and cent amount:")
 amt = float(input())
 quarters = 0
 dimes = 0
