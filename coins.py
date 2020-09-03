@@ -18,7 +18,7 @@ if(amt >= .05 and amt < .10):
 amt = amt -(nicks*.05)
 amt = round(amt%1,2)
 if (amt>.01 and amt <.05):
-	pens = int(amt//.01)
+	pens = int(amt/.01)
 
 
 print("The coins are",quarters,"quarters,",dimes,"dimes,",nicks,"nickels and",pens,"pennies")
