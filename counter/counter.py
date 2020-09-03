@@ -1,14 +1,25 @@
 print ("Please enter the number of coins:")
-quarters = int(input("#of quarters:"))
-quartertot = quarters * .25
-dimes = int(input("#of dimes:"))
-dimestot = dimes * .10
-nickels = int(input("#of nickels:"))
+print ("#of quarters:")
+quarters = int(input())
+print ("#of dimes:")
+dimes = int(input())
+dimestot = dimes * .1
+
+print ("#of nickels:")
+nickels = int(input())
 nickeltot = nickels * .05
-pennies = int(input("#ofpennies:"))
+
+print ("#of pennies:")
+pennies = int(input())
 pennytot = pennies *.01
 
-tot = float(quartertot + dimestot + nickeltot + pennytot)
-cents = tot%1
+
+tot = (quarters*.25) + (dimes*.1) + (nickels*.05) + (pennies*.01)
+
+rnded = round(tot,2)
+
+strtot = str(rnded)
 dollars = int(tot//1)
-print ("The total is ",dollars , "dollars and ", cents,"cents")
+cent = int((strtot.split('.')[1]))
+
+print ("The total is ",dollars , "dollars and ", cent,"cents")
