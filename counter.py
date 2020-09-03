@@ -1,5 +1,4 @@
 print ("Please enter the number of coins:")
-
 quarters = int(input("#of quarters:"))
 quartertot = quarters * .25
 dimes = int(input("#of dimes:"))
