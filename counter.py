@@ -18,4 +18,4 @@ strtot = str(rnded)
 dollars = int(tot//1)
 cent = int((strtot.split('.')[1]))
 
-print ("The total is ",dollars , "dollars and ", cent,"cents")
+print ("The total is",dollars , "dollars and", cent,"cents")
