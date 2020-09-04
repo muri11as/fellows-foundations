@@ -6,7 +6,7 @@ hmeter = .0254
 
 #lbs = pounds * lbkg
 #meters = height * hmeter
-status="N/A"S
+status="N/A"
 
 #bmi = lbs/(meters**2)
 bmi = pounds/(height**2)
