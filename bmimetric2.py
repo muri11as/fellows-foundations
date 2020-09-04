@@ -10,6 +10,7 @@ status="N/A"S
 
 #bmi = lbs/(meters**2)
 bmi = pounds/(height**2)
+
 if bmi < 18.5:
 	status = "Underweight"
 elif 18.5 <= bmi < 25:
