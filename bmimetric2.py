@@ -20,4 +20,4 @@ elif 25 <= bmi < 30:
 else:
 	status = "Obese"
 
-print ("BMI is:",bmi, "Status is",status)
+print ("BMI is:",bmi, ", Status is",status)
