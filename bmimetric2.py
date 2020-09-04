@@ -9,7 +9,7 @@ hmeter = .0254
 status="N/A"
 
 #bmi = lbs/(meters**2)
-bmi = pounds/(height**2)
+bmi = round(pounds/(height**2),2)
 
 if bmi < 18.5:
 	status = "Underweight"
