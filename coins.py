@@ -17,7 +17,7 @@ if(amt >= .05 and amt < .10):
 	nicks = int(amt //.05)
 amt = amt -(nicks*.05)
 amt = round(amt%1,2)
-if (amt>.01 and amt <.05):
+if (amt>0.0 and amt <.05):
 	pens = int(amt/.01)
 
 
