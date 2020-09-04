@@ -1,7 +1,7 @@
 pounds = float(input())
 height = float(input())
 
-lbkg = .43592
+lbkg = .453592
 hmeter = .0254
 
 lbs = pounds * lbkg
