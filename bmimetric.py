@@ -1,5 +1,5 @@
-kg = float(input("Please enter weight in kg:"))
-height = float(input("Please enter height in m:"))
+kg = float(input())
+height = float(input())
 
 hsquared = height**2
 bmi = kg/hsquared
