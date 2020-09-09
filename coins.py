@@ -1,8 +1,13 @@
-amt = float(input())
+dols = float(input())
+cents = float(input())/100
+
+amt = dols+cents
+
 quarters = 0
 dimes = 0
 nicks = 0
 pens = 0
+
 if (amt >= .25):
 	quarters = int(amt//.25)
 amt = amt - (quarters*.25)
