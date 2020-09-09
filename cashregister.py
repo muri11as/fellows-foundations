@@ -18,7 +18,7 @@ base = float(item1) + float(item2)
 if card == 1:
 	disc = base * .1
 else:
-	disc = base
+	disc = 0
 disc = base - disc
 print("Price after discounts = %.2f"% disc)
 tax = float(tax)/100
