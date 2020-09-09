@@ -13,7 +13,7 @@ else:
 	card = 0
 tax = input()
 
-print("Base price = %.2f"% origbase)
+print("Base price = %.2f"% base)
 base = float(item1) + float(item2)
 if card == 1:
 	disc = base * .1
