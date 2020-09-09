@@ -1,4 +1,4 @@
-def remaining(string):
+def remainingwords(string):
 	stringer = " "
 	stringy = string.split(' ')
 	#print (stringy[1:])
