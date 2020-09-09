@@ -1,11 +1,11 @@
-item1 = input("Enter price of first item:")
-item2 = input("Enter price of second item:")
-cardIn = input ("Does customer have a club card? (Y/N):")
+item1 = input()
+item2 = input()
+cardIn = input ()
 if cardIn == 'Y' or cardIn == 'y':
 	card = 1
 else:
 	card = 0
-tax = input("Enter tax rate. e.g. 5.5 for 5.5% tax: ")
+tax = input()
 
 base = float(item1) + float(item2)
 
