@@ -19,5 +19,5 @@ dur = int(input())
 
 cost = dur * rate
 
-print("This call will cost $ %.2f" % cost)
+print("This call will cost $%.2f" % cost)
 
